@@ -3,7 +3,7 @@
   /* height: 100vh; */
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../src/assets/images/reasons-bg-img.jpg);
+    url(/src/assets/images/reasons-bg-img.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
