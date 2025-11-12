@@ -3,7 +3,7 @@
   --hero-section-gradient: rgba(0, 0, 0, 0.4);
   background:
     linear-gradient(var(--hero-section-gradient), var(--hero-section-gradient)),
-    url(./src/assets/images/hero-bg.jpg);
+    url(../src/assets/images/hero-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
 
