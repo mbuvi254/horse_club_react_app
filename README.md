@@ -71,3 +71,30 @@ export default defineConfig([
   },
 ])
 ```
+
+**CSS Modules**
+
+This project uses CSS Modules for component-scoped styles. Files in `src/css-modules/` use the naming convention `*.module.css` and are imported into components like this:
+
+```tsx
+// Example: src/components/Reason.tsx
+import style from '../css-modules/Reason.module.css'
+
+export default function Reason(){
+  return (
+    <section className={style.reasons_section}>
+      <div className={style.reason}>
+        <h3 className={style.reason_title}>expert technicians</h3>
+        <p className={style.reason_description}>Help text here</p>
+      </div>
+    </section>
+  )
+}
+```
+
+Notes:
+
+- Use `import styles from './css-modules/File.module.css'` (or any name) and reference classes with `styles.class_name`.
+- In this repo we've standardized class names to snake_case (e.g. `service_card`, `service_title`).
+- Vite + React setup supports CSS Modules out of the box when files are named `*.module.css`.
+

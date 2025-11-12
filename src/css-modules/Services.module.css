@@ -1,11 +1,31 @@
+.title_sub {
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+/* Title stylings */
+.title_main {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .title_main {
+    font-size: 3.5rem;
+  }
+}
+/* End of title stylings */
 
 /* Services styling */
-.services-section {
+.services_section {
   background-color: var(--color-grey-light);
   padding: 10rem 2rem;
 }
 
-.services-container {
+.services_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,7 +33,7 @@
   margin-top: 5rem;
 }
 
-.service-card {
+.service_card {
   width: 30rem;
   background-color: var(--color-white);
   padding: 1rem;
@@ -21,11 +41,11 @@
   transition: all 0.5s;
 }
 
-.service-card:hover {
+.service_card:hover {
   background-color: var(--color-primary);
 }
 
-.service-card-img-wrapper {
+.service_card_img_wrapper {
   --service-image-wrapper-size: 10rem;
   width: var(--service-image-wrapper-size);
   height: var(--service-image-wrapper-size);
@@ -38,11 +58,11 @@
   clip-path: circle(50% at 50% 50%);
 }
 
-.service-image {
+.service_image {
   width: 6rem;
 }
 
-.service-title {
+.service_title {
   text-align: center;
   text-transform: capitalize;
   font-size: 2rem;
@@ -50,11 +70,11 @@
   transition: color 0.5s;
 }
 
-.service-card:hover .service-title {
+.service_card:hover .service_title {
   color: var(--color-white);
 }
 
-.service-description {
+.service_description {
   text-align: center;
   font-size: 1.4rem;
   line-height: 2;
@@ -62,7 +82,7 @@
   transition: color 0.5s;
 }
 
-.service-card:hover .service-description {
+.service_card:hover .service_description {
   color: var(--color-white);
 }
 /* End of services styling */
