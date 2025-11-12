@@ -1,4 +1,11 @@
 import style from '../css-modules/Services.module.css'
+import serviceVet from '../assets/images/service-vet.png'
+import serviceGrooming from '../assets/images/service-horse-grooming.png'
+import serviceTraining from '../assets/images/service-horse-training.png'
+import serviceFeeding from '../assets/images/service-horse-feeding.png'
+import serviceSanctuary from '../assets/images/service-horse-santuary.png'
+import serviceTracking from '../assets/images/service-horse-tracking.png'
+
 const Services = ()=>{
     return (
     <section className={style.services_section} id="services">
@@ -11,7 +18,7 @@ const Services = ()=>{
       <div className={style.service_card}>
           <div className={style.service_card_img_wrapper}>
             <img
-              src="./src/assets/images/service-vet.png"
+              src={serviceVet}
               alt="veterinary services"
               className={style.service_image}
             />
@@ -28,7 +35,7 @@ const Services = ()=>{
         <div className={style.service_card}>
           <div className={style.service_card_img_wrapper}>
             <img
-              src="./src/assets/images/service-horse-grooming.png"
+              src={serviceGrooming}
               alt="horse grooming"
               className={style.service_image}
             />
@@ -44,7 +51,7 @@ const Services = ()=>{
         <div className={style.service_card}>
           <div className={style.service_card_img_wrapper}>
             <img
-              src="./src/assets/images/service-horse-training.png"
+              src={serviceTraining}
               alt="horse training"
               className={style.service_image}
             />
@@ -60,7 +67,7 @@ const Services = ()=>{
         <div className={style.service_card}>
           <div className={style.service_card_img_wrapper}>
             <img
-              src="./src/assets/images/service-horse-feeding.png"
+              src={serviceFeeding}
               alt="horse feeding"
               className={style.service_image}
             />
@@ -76,7 +83,7 @@ const Services = ()=>{
         <div className={style.service_card}>
           <div className={style.service_card_img_wrapper}>
             <img
-              src="./src/assets/images/service-horse-santuary.png"
+              src={serviceSanctuary}
               alt="sanctuary for horses"
               className={style.service_image}
             />
@@ -92,7 +99,7 @@ const Services = ()=>{
         <div className={style.service_card}>
           <div className={style.service_card_img_wrapper}>
             <img
-              src="./src/assets/images/service-horse-tracking.png"
+              src={serviceTracking}
               alt="digital tracking"
               className={style.service_image}
             />

@@ -1,4 +1,11 @@
 import style from '../css-modules/Blog.module.css'
+import blogImg1 from '../assets/images/blog-img-1.jpg'
+import blogImg2 from '../assets/images/blog-img-2.jpg'
+import blogImg3 from '../assets/images/blog-img-3.jpg'
+import blogImg4 from '../assets/images/blog-img-4.jpg'
+import blogImg5 from '../assets/images/blog-img-5.jpg'
+import blogImg6 from '../assets/images/blog-img-6.jpg'
+
 const Blog = ()=>{
     return (
     <section className={style.blog_section} id="blog">
@@ -10,7 +17,7 @@ const Blog = ()=>{
         <div className={style.blog_card}>
           <div className={style.blog_card_img_wrapper}>
             <img
-              src="./src/assets/images/blog-img-1.jpg"
+              src={blogImg1}
               alt="featured image"
               className={style.blog_card_featured_image}
             />
@@ -42,7 +49,7 @@ const Blog = ()=>{
         <div className={style.blog_card}>
           <div className={style.blog_card_img_wrapper}>
             <img
-              src="./src/assets/images/blog-img-2.jpg"
+              src={blogImg2}
               alt="featured image"
               className={style.blog_card_featured_image}
             />
@@ -77,7 +84,7 @@ const Blog = ()=>{
         <div className={style.blog_card}>
           <div className={style.blog_card_img_wrapper}>
             <img
-              src="./src/assets/images/blog-img-3.jpg"
+              src={blogImg3}
               alt="featured image"
               className={style.blog_card_featured_image}
             />
@@ -110,7 +117,7 @@ const Blog = ()=>{
         <div className={style.blog_card}>
           <div className={style.blog_card_img_wrapper}>
             <img
-              src="./src/assets/images/blog-img-4.jpg"
+              src={blogImg4}
               alt="featured image"
               className={style.blog_card_featured_image}
             />
@@ -143,7 +150,7 @@ const Blog = ()=>{
         <div className={style.blog_card}>
           <div className={style.blog_card_img_wrapper}>
             <img
-              src="./src/assets/images/blog-img-5.jpg"
+              src={blogImg5}
               alt="featured image"
               className={style.blog_card_featured_image}
             />
@@ -177,7 +184,7 @@ const Blog = ()=>{
         <div className={style.blog_card}>
           <div className={style.blog_card_img_wrapper}>
             <img
-              src="./src/assets/images/blog-img-6.jpg"
+              src={blogImg6}
               alt="featured image"
               className={style.blog_card_featured_image}
             />

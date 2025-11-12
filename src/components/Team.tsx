@@ -1,5 +1,11 @@
 import style from '../css-modules/Team.module.css'
 import {FaInstagram,FaTwitter,FaFacebook,FaGoogle   } from "react-icons/fa";
+import staffIrene from '../assets/images/staff-irene.jpg'
+import staffBrian from '../assets/images/staff-brian.jpg'
+import staffBabra from '../assets/images/staff-babra.jpg'
+import staffGeorge from '../assets/images/staff-george.jpg'
+import staffLinnet from '../assets/images/staff-linnet.jpg'
+import staffJoshua from '../assets/images/staff-joshua.jpg'
 const Team = ()=>{
     return(
     <section className={style.team_section} id="team">
@@ -11,7 +17,7 @@ const Team = ()=>{
         <div className={style.team_member_card}>
           <div className={style.team_member_image_wrapper}>
             <img
-              src="./src/assets/images/staff-irene.jpg"
+              src={staffIrene}
               alt="A head-shot of irene"
               className={style.team_member_image}
             />
@@ -55,7 +61,7 @@ const Team = ()=>{
         <div className={style.team_member_card}>
           <div className={style.team_member_image_wrapper}>
             <img
-              src="./src/assets/images/staff-brian.jpg"
+              src={staffBrian}
               alt="A head-shot of irene"
               className={style.team_member_image}
             />
@@ -98,7 +104,7 @@ const Team = ()=>{
         <div className={style.team_member_card}>
           <div className={style.team_member_image_wrapper}>
             <img
-              src="./src/assets/images/staff-babra.jpg"
+              src={staffBabra}
               alt="A head-shot of Babra"
               className={style.team_member_image}
             />
@@ -142,7 +148,7 @@ const Team = ()=>{
         <div className={style.team_member_card}>
           <div className={style.team_member_image_wrapper}>
             <img
-              src="./src/assets/images/staff-george.jpg"
+              src={staffGeorge}
               alt="A head-shot of Fleeky"
               className={style.team_member_image}
             />
@@ -186,7 +192,7 @@ const Team = ()=>{
         <div className={style.team_member_card}>
           <div className={style.team_member_image_wrapper}>
             <img
-              src="./src/assets/images/staff-linnet.jpg"
+              src={staffLinnet}
               alt="A head-shot of Linet"
               className={style.team_member_image}
             />
@@ -230,7 +236,7 @@ const Team = ()=>{
         <div className={style.team_member_card}>
           <div className={style.team_member_image_wrapper}>
             <img
-              src="./src/assets/images/staff-joshua.jpg"
+              src={staffJoshua}
               alt="A head-shot of joshua"
               className={style.team_member_image}
             />

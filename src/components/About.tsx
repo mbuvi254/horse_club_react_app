@@ -1,4 +1,6 @@
 import style from '../css-modules/About.module.css'
+import aboutImg from '../assets/images/about-img.jpg'
+
 const About = ()=>{
     return(
     <section className={style.about_section} id="about">
@@ -19,7 +21,7 @@ const About = ()=>{
       </div>
       <div className={style.about_img_wrapper}>
         <img
-          src="./src/assets/images/about-img.jpg"
+          src={aboutImg}
           alt="horse running"
           className={style.about_img_image}
         />
